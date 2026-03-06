@@ -1,0 +1,31 @@
+# .gitignore for OpenClaw Workspace
+
+# Logs and transient data
+*.log
+*.jsonl
+*.sqlite
+*.sqlite-journal
+
+# Secrets and environment
+.env
+.env.*
+secrets/
+*.pem
+*.key
+
+# Node/Build artifacts
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# Project-specific ignores (if they have their own git repos)
+human-benefit-app/
+human-benefit-app-next/
+daimirai-app/
+Projects/
+
+# OpenClaw specifics
+.openclaw/config.json
+.openclaw/keys/
